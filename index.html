@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 5</title>
+		<link rel="stylesheet" type="text/css" href="assignment5.css" />
+	<script src="assignment5.js">	
+	</script>
+	</head>
+
+	<body>
+		
+
+		
+		<div id="header">
+			<div class="body">
+				<h1 align="center">Assignment-5</h1>
+			</div>
+		</div>
+		
+		<div id="page">
+			<hr>
+			<section id="title">
+				<label>Please select: </label>
+				<select onchange="MenuChoice()" id="menu">
+					<option>Please Select an option</option>
+					<option value="cust_list">Customer List</option>
+					<option value="order_names">Products Ordered by a Customer</option>
+					<option value="order_history">Customer's Full Order History</option>
+				</select>
+			</section>
+
+			<section id="section1" class="section1">
+				<br>
+				<table id="cust_table" class="table2"></table>
+			</section>
+			
+			<section id="section2" class="section2">
+				<br>				
+				<table class="table1">
+					<td>
+					<label>Customer ID: </label></td>
+					<td>
+					<input type="text" id="cust_id">
+					</td>
+				</table>
+				<br>
+				<button class="button" onclick="Get_Customer_Order_History_Table()">Get Orders</button>
+				<br><br>
+				<table id="cust_order_hist_table" class="table2"></table>
+			</section>
+			
+			<section id="section3" class="section3">
+				<br>				
+				<table class="table1">
+					<td>
+					<label>Customer ID: </label></td>
+					<td>
+					<input type="text" id="customer_id">
+					</td>
+				</table>
+				<br>
+				<button class="button" onclick="Get_Customer_Full_Order_History_Table()">Get Full Order History</button>
+				<br><br>
+				<table id="cust_full_order_hist_table" class="table2"></table>
+			</section>
+		</div>
+			
+
+		<div id="footer">
+		<!--
+			<div class="body"> -->
+				<hr>
+				<h4 align="center">Abdoul Aboaouda
+				<br/>aabo1992@uab.edu</h4>
+			<!--
+			</div> -->
+		</div>
+		
+	</body>
+
+</html>
