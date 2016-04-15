@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 6</title>
+		<link rel="stylesheet" type="text/css" href="styles/Assignment6.css" />
+	<script src="js/Assignment6.js">	
+	</script>
+	</head>
+
+	<body>
+		
+
+		
+		<div id="header">
+			<div class="body">
+				<h1 align="center">Assignment-6</h1>
+			</div>
+		</div>
+		
+		<div id="page">
+			<hr>
+			<section id="title">
+				<label>Please select: </label>
+				<select onchange="MenuChoice()" id="menu">
+					<option>Please Select an option</option>
+					<option value="add_cust">Add Customer</option>
+					<option value="edit_cust">Change Customer Information</option>
+					<option value="del_cust">Delete Customer</option>
+				</select>
+			</section>
+
+			<section id="section1" class="section1">
+				<br>
+				<table class="table1">
+					<tr>
+					<td><label>Customer ID: </label></td>
+					<td><input type="text" id="cust_id" placeholder="5 characters long">
+					</td></tr>
+					<tr>
+					<td><label>Customer Name: </label></td>
+					<td><input type="text" id="cust_name"></td></tr>
+					<tr><td><label>Customer's City: </label></td>
+					<td><input type="text" id="cust_city"></td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="CreateCustomer()">Add Customer</button>
+				<br>
+				<hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result"></label></td></tr>
+				</table>
+			</section>
+			
+			<section id="section2" class="section2">
+				<br>				
+				<table class="table1">
+					<tr>
+					<td><label>Order ID: </label></td>
+					<td><input type="text" id="order_id_edit" placeholder="5 characters long">
+					</td></tr>
+					<tr>
+					<td><label>Ship-to Name: </label></td>
+					<td><input type="text" id="cust_name_edit"></td></tr>
+					<tr><td><label>Ship-to Address: </label></td>
+					<td><input type="text" id="cust_add_edit"></td></tr>
+					<tr><td><label>Ship-to City: </label></td>
+					<td><input type="text" id="cust_city_edit"></td></tr>
+					<tr><td><label>Ship-to Postal Code: </label></td>
+					<td><input type="text" id="cust_pin_edit"></td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="UpdateOrderAddress()">Update Order Address</button>
+				<br><hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result_two"></label></td></tr>
+				</table>
+			</section>
+			
+			<section id="section3" class="section3">
+				<br>				
+				<table class="table1">
+					<tr>
+					<td><label>Customer ID: </label></td>
+					<td><input type="text" id="cust_id_del" placeholder="5 characters long">
+					</td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="DeleteCustomer()">Delete Customer</button>
+				<br><hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result_thr"></label></td></tr>
+				</table>
+			</section>
+		</div>
+			
+
+		<div id="footer">
+		
+			<div class="body">
+				<hr>
+				<h4 align="center">Abdoul Aboaouda
+				<br/>aabo1992@uab.edu</h4>
+			
+			</div>
+		</div>
+		
+	</body>
+
+</html>
