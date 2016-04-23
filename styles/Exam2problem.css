@@ -25,7 +25,9 @@ p {
 	text-justify: auto;
 }
 section {
+	width: 90%;
 	padding-left: 20px;
+	padding-right: 20px;
 }
 section.section1 {
 	margin: 0 auto;
@@ -34,17 +36,15 @@ section.section1 {
     /*
 	width: 600px;
 	*/
-	padding-left: 20px;
 }
 
-section.section2 {
+section.section_two {
 	margin: 0 auto;
 	visibility: hidden;
 	position: absolute;
     /*
 	width: 600px;
 	*/
-	padding-left: 20px;
 }
 
 section.section3 {
@@ -54,7 +54,6 @@ section.section3 {
     /*
 	width: 600px;
 	*/
-	padding-left: 20px;
 }
 section.section4 {
 	margin: 0 auto;
@@ -63,7 +62,6 @@ section.section4 {
     /*
 	width: 600px;
 	*/
-	padding-left: 20px;
 }
 section.section5 {
 	margin: 0 auto;
@@ -72,11 +70,10 @@ section.section5 {
     /*
 	width: 600px;
 	*/
-	padding-left: 20px;
 }
 
 table.table1 {
-    width: 90%;
+    width: 80%;
 }
 table.table1 th, td {
     padding: 0;
