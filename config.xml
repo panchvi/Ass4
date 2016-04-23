@@ -4,5 +4,4 @@
 <description>Mobile App Assignment for IS 491 class.</description>
 <author>Julio C. Rivera</author>
 <preference name="phonegap-version" value="3.7.0"/>
-<preference name="EnableViewportScale" value="true" />
 </widget>
