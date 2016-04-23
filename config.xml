@@ -1,0 +1,7 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="edu.uab.business.studentapp" versionCode="1" version="0.0.1">
+<!--  versionCode is optional and Android only  -->
+<name>IS 491 Class Exam-2</name>
+<description>Mobile App Assignment for IS 491 class.</description>
+<author>Julio C. Rivera</author>
+<preference name="phonegap-version" value="3.7.0"/>
+</widget>

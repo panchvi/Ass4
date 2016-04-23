@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exam 2</title>
+		<link rel="stylesheet" type="text/css" href="styles/Exam2problem.css" />
+	<script src="js/Exam2problem.js">	
+	</script>
+	</head>
+
+	<body>
+		
+
+		
+		<div id="header">
+			<div class="body">
+				<h1 align="center">Exam-2</h1>
+			</div>
+		</div>
+		
+		<div id="page">
+			<hr>
+			<section id="title">
+				<label>Please select: </label>
+				<select onchange="MenuChoice()" id="menu">
+					<option>Please Select an option</option>
+					<option value="cat_list">Category List</option>
+					<option value="create_cat">Create Category</option>
+					<option value="edit_cat">Change Description</option>
+					<option value="del_cat">Delete Category</option>
+					<option value="about">About Me</option>
+				</select>
+			</section>
+
+			<section id="section1" class="section1">
+				<br>
+				<table id="cat_list_table" class="table2"></table>
+			</section>
+			
+			<section id="section2" class="section2">
+				<br>
+				<table class="table1">
+					<tr><td><label>Category Name: </label></td>
+					<td><input type="text" id="c_name"></td></tr>
+					<tr><td><label>Category Description: </label></td>
+					<td><input type="text" id="c_des"></td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="CreateCategory()">Create Category</button>
+				<br>
+				<hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result"></label></td></tr>
+				</table>
+			</section>
+			
+			<section id="section3" class="section3">
+				<br>				
+				<table class="table1">
+					<tr><td><label>Category ID: </label></td>
+					<td><input type="text" id="c_id"></td></tr>
+					<tr><td><label>Category Description: </label></td>
+					<td><input type="text" id="c_desc"></td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="UpdateCatDescription()">Update Category Description</button>
+				<br><hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result_two"></label></td></tr>
+				</table>
+			</section>
+			
+			<section id="section4" class="section1">
+				<br>				
+				<table class="table1">
+					<tr>
+					<td><label>Category ID: </label></td>
+					<td><input type="number" id="cat_id_del">
+					</td></tr>
+				</table>
+				<br>
+				<button class="button" onclick="DeleteCategory()">Delete Category</button>
+				<br><hr><br>
+				<table class="table1">
+				<tr>
+				<td><label>Operation's result:</label></td>
+				<td><label id="result_thr"></label></td></tr>
+				</table>
+			</section>
+			
+			<section id="section5" class="section1">
+				<br>
+				<p>Hello All, <br><br>
+				My name is Abdoul Aboaouda. I live in Birmingham, city in Alabama (US).<br>
+				I study at UAB (The University of Alabama at Birmingham). This is the assignment for IS 491 Class.<br>
+				That's all about me. <br><br>
+				Thanks!</p>
+			</section>
+		</div>
+			
+
+		<div id="footer">
+		
+			<div class="body">
+				<hr>
+				<h4 align="center">Abdoul Aboaouda
+				<br/>aabo1992@uab.edu</h4>
+			
+			</div>
+		</div>
+		
+	</body>
+
+</html>
