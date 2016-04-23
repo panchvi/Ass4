@@ -5,6 +5,8 @@ body {
 	font-family: Verdana,sans-serif,Calibri,Arial;
 	width: 600px;
 	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 #page {
 	/*margin: auto; --*/
@@ -21,8 +23,10 @@ p {
 	text-justify: auto;
 }
 section {
+	/*
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 10px; 
+	*/
 }
 section.section1 {
 	margin: 0 auto;
