@@ -21,14 +21,14 @@ p {
 	text-justify: auto;
 }
 section {
-	padding-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 section.section1 {
 	margin: 0 auto;
 	visibility: hidden;
 	position: absolute;
     width: 600px;
-	padding-left: 20px;
 }
 
 section.section2 {
@@ -36,7 +36,6 @@ section.section2 {
 	visibility: hidden;
 	position: absolute;
     width: 600px;
-	padding-left: 20px;
 }
 
 section.section3 {
@@ -44,21 +43,18 @@ section.section3 {
 	visibility: hidden;
 	position: absolute;
     width: 600px;
-	padding-left: 20px;
 }
 section.section4 {
 	margin: 0 auto;
 	visibility: hidden;
 	position: absolute;
     width: 600px;
-	padding-left: 20px;
 }
 section.section5 {
 	margin: 0 auto;
 	visibility: hidden;
 	position: absolute;
     width: 600px;
-	padding-left: 20px;
 }
 
 table.table1 {
@@ -119,7 +115,7 @@ table.table2 th {
 #footer {
 	width: 600px;
 	/*position: absolute; --*/
-	margin-top: 1600px;
+	margin-top: 1800px;
 	/*margin-bottom: 10px; --*/
 	/*left: 0; --*/
 }
